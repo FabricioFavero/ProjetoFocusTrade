@@ -1,0 +1,36 @@
+
+.containerTitulo {
+    text-align: center;
+}
+
+.containerPerguntas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px 0 0 0;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.container-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.botao {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial,sans-serif;
+    text-shadow: none;
+    flex-direction: row;
+    border-radius: 20px;
+}
